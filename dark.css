@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    
+    height: 100vh;
+    background-color:  #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+main{
+    width: 550px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    padding: 50px;
+    position:relative;
+}
+
+.theme-toggle-btn{
+    position: absolute;
+    padding:10px 15px;
+    top:30px;
+    right:50px;
+    border:none;
+    box-shadow:2px 2px  #10b981;
+    background-color: white;
+    cursor:pointer;
+}
+.theme-toggle-btn i{
+    color: #2f3e53;
+    font-size: 30px;
+} 
+.headingContent{
+    /* line-height:0.25px; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.headingContent h2{
+    font-size: 40px;
+    font-family: "Karla", sans-serif;
+    color: white;
+    margin-bottom: -10px;
+}
+
+.headingContent #text-highlight{
+    color: #4adf86;
+}
+
+.headingContent p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    color: #d5d4d8;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+input[type= number]{
+    height:42px;
+    font-family: "Inter", sans-serif;
+    border: none;
+    text-decoration: none;
+    font-size: 10px;
+    padding-inline: 5px;
+}
+
+.btn{
+    margin-top: -20px;
+    border:none;
+    padding:9px 17px;
+    border-radius:6px;
+    background-color: #10b981;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    display: inline-block;
+    width:192px;
+    height:42px;
+    color: white;
+}
+
+.hr{
+    margin-top:-50px;
+    width:450px;
+    height:1px;
+    background-color: black;
+    text-align: center;
+    background-color:#2f3e53;
+    margin-bottom: 0px;
+}
+
+.password-section{
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-between;
+}
+.password{
+    font-family: "Inter", sans-serif;
+    width: 210px;
+    height:40px;
+    border-radius: 6px;
+    background-color: #2f3e53;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #55f991 ;
+}
+
