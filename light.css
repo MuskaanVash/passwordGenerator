@@ -69,6 +69,16 @@ main{
     margin-bottom: 0;
 }
 
+
+input[type= number]{
+    height:42px;
+    font-family: "Inter", sans-serif;
+    border: none;
+    text-decoration: none;
+    font-size: 10px;
+    padding-inline: 5px;
+}
+ 
 .btn{
     margin-top: -20px;
     border:none;
